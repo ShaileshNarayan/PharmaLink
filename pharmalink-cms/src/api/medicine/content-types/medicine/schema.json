@@ -1,0 +1,67 @@
+{
+  "kind": "collectionType",
+  "collectionName": "medicines",
+  "info": {
+    "singularName": "medicine",
+    "pluralName": "medicines",
+    "displayName": "medicine",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "overview": {
+      "type": "blocks",
+      "required": true
+    },
+    "interactions": {
+      "type": "blocks",
+      "required": true
+    },
+    "dosage": {
+      "type": "blocks",
+      "required": true
+    },
+    "sideEffects": {
+      "type": "blocks",
+      "required": true
+    },
+    "Added_by": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::doctor.doctor",
+      "inversedBy": "medicines"
+    },
+    "symptoms": {
+      "type": "string",
+      "required": true
+    },
+    "similarmedicines": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::medicine.medicine",
+      "inversedBy": "medicines"
+    },
+    "medicines": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::medicine.medicine",
+      "mappedBy": "similarmedicines"
+    }
+  }
+}
