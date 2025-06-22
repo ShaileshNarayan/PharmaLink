@@ -103,7 +103,7 @@ npm run develop
 
 ### Strapi CMS
 
-![Strapi CMS](StrapiMedicineCollection.jpg)
+![Strapi CMS](Screenshots/StrapiMedicineCollection.jpg)
 
 ---
 
