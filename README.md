@@ -87,6 +87,26 @@ npm run develop
 
 ---
 
+## 📸 Screenshots
+
+### Homepage
+
+![Homepage](Screenshots/Homepage.jpg)
+
+### Medicine Details
+
+![Medicine Details](Screenshots/MedicineDetailsPage.jpg)
+
+### Pharmacy Locator
+
+![Pharmacy Locator](Screenshots/FindPharmacyPage.jpg)
+
+### Strapi CMS
+
+![Strapi CMS](StrapiMedicineCollection.jpg)
+
+---
+
 ## 🔑 API Keys to Replace
 
 | File                         | Replace With                                          |
@@ -94,13 +114,11 @@ npm run develop
 | `backend/views.py`           | Replace `GOOGLE_PLACES_API_KEY = "Your API Key Here"` |
 | `frontend/client/index.html` | Replace `GOOGLE_PLACES_API_KEY = "Your API Key Here"` |
 
-
 ---
 
 ## 🧑‍💻 Team
 
-Built by [Shailesh Narayan](https://github.com/ShaileshNarayan) and team as part of an academic mini-project.
-
+Built by [Shailesh Narayan](https://github.com/ShaileshNarayan) and team [Vishwa](https://github.com/Vishwa-1514), [Hari Bhaskar](https://github.com/Haribhaskar16) as part of an academic mini-project.
 
 ---
 
